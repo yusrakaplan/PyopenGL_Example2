@@ -1,3 +1,10 @@
+from OpenGL.GL import *
+from OpenGL.GLUT import *
+from OpenGL.GLU import *
+import sys
+from math import radians, cos, sin
+import OpenGL.GL as gl
+import OpenGL.GLUT as glut
 
 x, y = -0.7, 0.6
 deltax = 0.0
